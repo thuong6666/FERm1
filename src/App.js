@@ -5,18 +5,28 @@ import Card from "./components/carrd/Card";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Button value="FER201m" />
       <Button value="FER201m" />
       <Button value="FER201m" />
       <Button value="FER201m" />
       <hr />
-      <div className="list-card" style={{padding: "30px"}}>
-        <Card title="Test" />
+      <div className="row" style={{padding: "30px"}}>
+      <div className="col-md-6 col-lg-4">
+        <Card/>
+      </div>
+      <div className="col-md-6 col-lg-4">
+        <Card/>
+      </div>
+      <div className="col-md-6 col-lg-4">
         <Card />
+        </div>
+        <div className="col-md-6 col-lg-4">
         <Card />
+        </div>
+        <div className="col-md-6 col-lg-4">
         <Card />
-        <Card />
+        </div>
       </div>
     </div>
   );

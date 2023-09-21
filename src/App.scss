@@ -3,22 +3,6 @@
   // background-color: black;
 }
 
-.container, .container-fluid{
-
-  div{
-    border: 1px solid #ccc;
-  }
-
-}
-
-.list-card{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  column-gap: 10px;
-  row-gap: 30px;
-  justify-content: center;
-}
 
 @keyframes App-logo-spin {
   from {
