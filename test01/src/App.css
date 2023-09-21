@@ -1,0 +1,26 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  cursor: pointer;
+  padding: 15px 30px;
+  background-color: rgb(7, 142, 7);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+button:hover{
+  background-color: rgb(6, 200, 6);
+}
+.card{
+  background-color: rgb(235, 235, 235);
+  margin-top: 10%;
+  width: 300px;
+}
+.card img{
+  width: 100%;
+}
